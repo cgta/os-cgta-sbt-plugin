@@ -23,7 +23,7 @@ object OsCgtaSbtPlugin {
     //    lazy val crossScala = List("2.10.2", "2.10.3", "2.10.4", "2.11.0", "2.11.1")
     lazy val crossScala = List("2.10.4", "2.11.1")
 
-    //Also change in plugins.sbt file
+    //Also change in build.sbt file
     lazy val scalaJs = "0.5.0-RC1"
   }
 
