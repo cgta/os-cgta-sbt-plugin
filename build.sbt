@@ -23,7 +23,7 @@ bintrayOrganization in bintray := Some("cgta")
 addSbtPlugin("biz.cgta" % "sbt-x-sjs-plugin" % "0.1.0")
 
 //Also change in OsCgtaSbtPlugin.scala Versions.scalaJs
-addSbtPlugin("org.scala-lang.modules.scalajs" % "scalajs-sbt-plugin" % "0.5.0-RC2")
+addSbtPlugin("org.scala-lang.modules.scalajs" % "scalajs-sbt-plugin" % "0.5.0")
 
 addSbtPlugin("me.lessis" % "bintray-sbt" % "0.1.1")
 
