@@ -13,9 +13,7 @@ organization := "biz.cgta"
 
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
 
-Seq[Setting[_]](shellPrompt <<= (thisProjectRef, version) {
-  (id, v) => _ => "%s:%s> ".format(id.project, v)
-})
+Seq[Setting[_]](shellPrompt <<= (thisProjectRef, version) { (id, v) => _ => "%s:%s> ".format(id.project, v)})
 
 addSbtPlugin("com.github.gseitz" % "sbt-release" % "0.8.3")
 
